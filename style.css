@@ -1,0 +1,104 @@
+body {
+    background: #252830;
+}
+
+.religion {
+    padding: 5% 0 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card-body {
+    color: #000; /* Change text color to black */
+    background: #fff; /* Change background color to white */
+    padding: 15px; /* Adjust padding */
+}
+
+.card-title {
+    font-size: 20px; /* Decrease font size */
+    font-weight: 600; /* Adjust font weight */
+    margin-bottom: 10px; /* Adjust margin */
+}
+
+.card-text {
+    font-size: 14px; /* Decrease font size */
+}
+
+.btn-group .btn {
+    background: #fe6d38;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 8px 15px; /* Adjust padding */
+    font-weight: 700;
+    transition: all 0.6s ease-in;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.95);
+    }
+    0% {
+        transform: scale(1);
+    }
+}
+
+.card:hover .card-title {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #262626;
+}
+
+@media (max-width: 991px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-group .btn {
+        font-size: 12px; /* Decrease font size */
+    }
+}
+
+/*--- SLIDER ----*/
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-slider {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    padding-bottom: 50px;
+    opacity: 0.8;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.20;
+}
+/*---SLIDER END ---*/
